@@ -24,4 +24,5 @@ In version 2.0, mappings automatically produced with LogMap, but not revised man
 - Distribute knowledge to several ontologies, with one *core* ontology including most upper concepts, relations and axioms and several more specific ontologies for specific, populous, sub-domains (e.g. LUMO-Arts, LUMO-Sports, etc.). Subdomains will be connected to *core* and potentially with each other. 
 - Extend the arts-culture and sports subdomains. 
 - Update mappings to current versions of connected schemata. 
+- Update mappings to cover the entirety of v2.0.
 - Create mappings to the [Arts & Architecture Thesaurus (AAT)](http://www.getty.edu/research/tools/vocabularies/aat/index.html). 
