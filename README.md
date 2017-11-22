@@ -14,7 +14,7 @@ Current version maps to:
 - [IPTC news codes](http://webtlab.it.uc3m.es/results/NEWS/subjectcodes.owl) - as categorized by WebTLab 
 - [GUMO](http://www.ubisworld.org/ubisworld/documents/gumo/2.0/gumo.owl)
 
-These mappings were produced with the use of the LogMap (Logic-based and Scalable Ontology Matching: http://code.google.com/p/logmap-matcher/ ) tool and revised manually.
+These mappings were produced with the use of the [LogMap]( http://code.google.com/p/logmap-matcher/) (Logic-based and Scalable Ontology Matching) tool and revised manually.
 
 In version 2.0, mappings automatically produced with LogMap, but not revised manually, are added for: 
 - [HyperDB](https://wordpress.org/plugins/hyperdb/) and 
