@@ -1,6 +1,9 @@
 # The Linked User Model Ontology (LUMO) - version 1.0
 Also known as the Linked**TV** User Model Ontology. 
 
+This ontology has been engineered in the premise of the [LinkedTV](https://www.linkedtv.eu/) FP7 project. 
+Its original directory in the premises of the project can be found in CERTH-ITI's [MKLab website, LUMO project](http://mklab.iti.gr/project/lumo). 
+
 ## Reference publication
 Tsatsou, D. and Mezaris, V., 2014, May. 
 [LUMO: the LinkedTV user model ontology](https://link.springer.com/chapter/10.1007/978-3-319-11955-7_33). 
