@@ -1,0 +1,2312 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+ ]>
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+	 xml:base="http://data.linkedtv.eu/ontologies/lumo_HyperDB"
+	 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	 ontologyIRI="http://data.linkedtv.eu/ontologies/lumo_HyperDB">
+	<Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+	<Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+	<Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+	<Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+	<Prefix name="logmap" IRI="http://www.cs.ox.ac.uk/isg/projects/LogMap#"/>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Act"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Action"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Activity"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Animals"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Area_of_interest"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Art"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Artifact"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Athlete"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Authorities"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Band"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Beverage"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Boat"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Book"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Cabinet"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Cat"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Charity"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Christian"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Christmas"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Church"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#City"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Composition"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Computer"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Crime"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Currency"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Dance"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Device"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Dictator"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Dog"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Economy"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Edifice"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Environment"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Event"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Fish"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Food"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Games"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Governor"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#House"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Ideology"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Institution"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Island"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Journalist"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Landform"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Law"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Location"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Mammal"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Medicine"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Minister"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Ministry"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Monarch"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Motion"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Mountain"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Music"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Musician"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Muslim"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Organization"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Parliament_body"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Plant"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Play"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Product"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Race"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Record_label"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Residence"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Riot"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Running"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Sailing"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Sales"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#School"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Scientist"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Season"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Service"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Settlement"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Ship"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Singer"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Single"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Song"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Sports"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Spring"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Star"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Strike"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Technology"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Time"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Toy"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Tragedy"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Verse"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Act"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Action"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Activity"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Animal"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Areas"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Art"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Artifact"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Athlete"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Authority"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Band"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Beverage"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Boats"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Book"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Building"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Cabinet"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Cat"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Charity"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Christians"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Christmas"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Church"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/City"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Composition"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Computers"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Crime"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Currency"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Dance"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Device"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Dictators"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Dog"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Economy"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Environment"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Event"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Fish"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Fishes"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Food"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Game"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Governor"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/House"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Ideology"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Institute"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Institution"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Island"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Journalist"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/King"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Landform"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Law"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Legislature"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Location"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Mammal"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Medicine"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Minister"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Ministry"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Motion"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Mountain"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Music"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Musician"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Musicians"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Muslim"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Organisation"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Planting"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Play"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Product"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Products"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Race"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Record_label"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Residence"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Riot"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Run"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Sail"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Sale"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/School"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Scientist"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Season"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Service"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Settlement"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Ship"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Singer"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Single"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Song"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Sports"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Spring"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Star"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Strike"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Technologies"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Time"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Toy"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Tragedy"/>
+	</Declaration>
+	<Declaration>
+		<Class IRI="http://dbpedia.org/resource/Verse"/>
+	</Declaration>
+	<Declaration>
+		<AnnotationProperty IRI="logmap:entity1"/>
+	</Declaration>
+	<Declaration>
+		<AnnotationProperty IRI="logmap:entity2"/>
+	</Declaration>
+	<Declaration>
+		<AnnotationProperty IRI="logmap:measure"/>
+	</Declaration>
+	<Declaration>
+		<AnnotationProperty IRI="logmap:relation"/>
+	</Declaration>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Act</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Act</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Act"/>
+		<Class IRI="http://dbpedia.org/resource/Act"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Action</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Action</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.736</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Action"/>
+		<Class IRI="http://dbpedia.org/resource/Action"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Activity</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Activity</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Activity"/>
+		<Class IRI="http://dbpedia.org/resource/Activity"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Animal</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Animals</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.7390000000000001</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Animals"/>
+		<Class IRI="http://dbpedia.org/resource/Animal"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Areas</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Area_of_interest</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Area_of_interest"/>
+		<Class IRI="http://dbpedia.org/resource/Areas"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Art</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Art</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Art"/>
+		<Class IRI="http://dbpedia.org/resource/Art"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Artifact</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Artifact</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Artifact"/>
+		<Class IRI="http://dbpedia.org/resource/Artifact"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Athlete</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Athlete</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Athlete"/>
+		<Class IRI="http://dbpedia.org/resource/Athlete"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Authority</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Authorities</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Authorities"/>
+		<Class IRI="http://dbpedia.org/resource/Authority"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Band</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Band</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Band"/>
+		<Class IRI="http://dbpedia.org/resource/Band"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Beverage</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Beverage</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Beverage"/>
+		<Class IRI="http://dbpedia.org/resource/Beverage"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Boats</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Boat</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Boat"/>
+		<Class IRI="http://dbpedia.org/resource/Boats"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Book</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Book</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Book"/>
+		<Class IRI="http://dbpedia.org/resource/Book"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Cabinet</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Cabinet</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Cabinet"/>
+		<Class IRI="http://dbpedia.org/resource/Cabinet"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Cat</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Cat</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Cat"/>
+		<Class IRI="http://dbpedia.org/resource/Cat"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Charity</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Charity</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Charity"/>
+		<Class IRI="http://dbpedia.org/resource/Charity"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Christians</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Christian</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.7450000000000001</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Christian"/>
+		<Class IRI="http://dbpedia.org/resource/Christians"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Christmas</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Christmas</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Christmas"/>
+		<Class IRI="http://dbpedia.org/resource/Christmas"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Church</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Church</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Church"/>
+		<Class IRI="http://dbpedia.org/resource/Church"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/City</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#City</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#City"/>
+		<Class IRI="http://dbpedia.org/resource/City"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Composition</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Composition</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Composition"/>
+		<Class IRI="http://dbpedia.org/resource/Composition"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Computers</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Computer</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Computer"/>
+		<Class IRI="http://dbpedia.org/resource/Computers"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Crime</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Crime</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Crime"/>
+		<Class IRI="http://dbpedia.org/resource/Crime"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Currency</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Currency</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Currency"/>
+		<Class IRI="http://dbpedia.org/resource/Currency"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Dance</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Dance</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Dance"/>
+		<Class IRI="http://dbpedia.org/resource/Dance"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Device</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Device</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Device"/>
+		<Class IRI="http://dbpedia.org/resource/Device"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Dictators</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Dictator</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Dictator"/>
+		<Class IRI="http://dbpedia.org/resource/Dictators"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Dog</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Dog</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Dog"/>
+		<Class IRI="http://dbpedia.org/resource/Dog"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Economy</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Economy</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Economy"/>
+		<Class IRI="http://dbpedia.org/resource/Economy"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Building</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Edifice</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.712</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Edifice"/>
+		<Class IRI="http://dbpedia.org/resource/Building"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Environment</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Environment</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Environment"/>
+		<Class IRI="http://dbpedia.org/resource/Environment"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Event</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Event</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.8049999999999999</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Event"/>
+		<Class IRI="http://dbpedia.org/resource/Event"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Fish</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Fish</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Fish"/>
+		<Class IRI="http://dbpedia.org/resource/Fish"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Fishes</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Fish</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Fish"/>
+		<Class IRI="http://dbpedia.org/resource/Fishes"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Food</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Food</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Food"/>
+		<Class IRI="http://dbpedia.org/resource/Food"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Game</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Games</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.718</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Games"/>
+		<Class IRI="http://dbpedia.org/resource/Game"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Governor</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Governor</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Governor"/>
+		<Class IRI="http://dbpedia.org/resource/Governor"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/House</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#House</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#House"/>
+		<Class IRI="http://dbpedia.org/resource/House"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Ideology</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Ideology</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Ideology"/>
+		<Class IRI="http://dbpedia.org/resource/Ideology"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Institute</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Institution</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Institution"/>
+		<Class IRI="http://dbpedia.org/resource/Institute"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Institution</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Institution</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Institution"/>
+		<Class IRI="http://dbpedia.org/resource/Institution"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Island</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Island</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Island"/>
+		<Class IRI="http://dbpedia.org/resource/Island"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Journalist</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Journalist</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Journalist"/>
+		<Class IRI="http://dbpedia.org/resource/Journalist"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Landform</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Landform</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Landform"/>
+		<Class IRI="http://dbpedia.org/resource/Landform"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Law</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Law</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.7390000000000001</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Law"/>
+		<Class IRI="http://dbpedia.org/resource/Law"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Location</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Location</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.7510000000000001</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Location"/>
+		<Class IRI="http://dbpedia.org/resource/Location"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Mammal</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Mammal</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Mammal"/>
+		<Class IRI="http://dbpedia.org/resource/Mammal"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Medicine</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Medicine</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Medicine"/>
+		<Class IRI="http://dbpedia.org/resource/Medicine"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Minister</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Minister</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Minister"/>
+		<Class IRI="http://dbpedia.org/resource/Minister"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Ministry</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Ministry</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Ministry"/>
+		<Class IRI="http://dbpedia.org/resource/Ministry"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/King</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Monarch</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Monarch"/>
+		<Class IRI="http://dbpedia.org/resource/King"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Motion</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Motion</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Motion"/>
+		<Class IRI="http://dbpedia.org/resource/Motion"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Mountain</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Mountain</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Mountain"/>
+		<Class IRI="http://dbpedia.org/resource/Mountain"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Music</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Music</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Music"/>
+		<Class IRI="http://dbpedia.org/resource/Music"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Musician</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Musician</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Musician"/>
+		<Class IRI="http://dbpedia.org/resource/Musician"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Musicians</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Musician</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Musician"/>
+		<Class IRI="http://dbpedia.org/resource/Musicians"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Muslim</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Muslim</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Muslim"/>
+		<Class IRI="http://dbpedia.org/resource/Muslim"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Organisation</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Organization</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.748</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Organization"/>
+		<Class IRI="http://dbpedia.org/resource/Organisation"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Legislature</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Parliament_body</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Parliament_body"/>
+		<Class IRI="http://dbpedia.org/resource/Legislature"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Planting</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Plant</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Plant"/>
+		<Class IRI="http://dbpedia.org/resource/Planting"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Play</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Play</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Play"/>
+		<Class IRI="http://dbpedia.org/resource/Play"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Product</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Product</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Product"/>
+		<Class IRI="http://dbpedia.org/resource/Product"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Products</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Product</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Product"/>
+		<Class IRI="http://dbpedia.org/resource/Products"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Race</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Race</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Race"/>
+		<Class IRI="http://dbpedia.org/resource/Race"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Record_label</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Record_label</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Record_label"/>
+		<Class IRI="http://dbpedia.org/resource/Record_label"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Residence</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Residence</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Residence"/>
+		<Class IRI="http://dbpedia.org/resource/Residence"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Riot</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Riot</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Riot"/>
+		<Class IRI="http://dbpedia.org/resource/Riot"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Run</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Running</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Running"/>
+		<Class IRI="http://dbpedia.org/resource/Run"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Sail</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Sailing</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Sailing"/>
+		<Class IRI="http://dbpedia.org/resource/Sail"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Sale</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Sales</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Sales"/>
+		<Class IRI="http://dbpedia.org/resource/Sale"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/School</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#School</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#School"/>
+		<Class IRI="http://dbpedia.org/resource/School"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Scientist</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Scientist</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Scientist"/>
+		<Class IRI="http://dbpedia.org/resource/Scientist"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Season</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Season</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.7749999999999999</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Season"/>
+		<Class IRI="http://dbpedia.org/resource/Season"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Service</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Service</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Service"/>
+		<Class IRI="http://dbpedia.org/resource/Service"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Settlement</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Settlement</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.73</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Settlement"/>
+		<Class IRI="http://dbpedia.org/resource/Settlement"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Ship</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Ship</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Ship"/>
+		<Class IRI="http://dbpedia.org/resource/Ship"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Singer</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Singer</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Singer"/>
+		<Class IRI="http://dbpedia.org/resource/Singer"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Single</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Single</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Single"/>
+		<Class IRI="http://dbpedia.org/resource/Single"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Song</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Song</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Song"/>
+		<Class IRI="http://dbpedia.org/resource/Song"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Sports</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Sports</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.706</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Sports"/>
+		<Class IRI="http://dbpedia.org/resource/Sports"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Spring</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Spring</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Spring"/>
+		<Class IRI="http://dbpedia.org/resource/Spring"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Star</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Star</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Star"/>
+		<Class IRI="http://dbpedia.org/resource/Star"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Strike</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Strike</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Strike"/>
+		<Class IRI="http://dbpedia.org/resource/Strike"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Technologies</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Technology</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Technology"/>
+		<Class IRI="http://dbpedia.org/resource/Technologies"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Time</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Time</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Time"/>
+		<Class IRI="http://dbpedia.org/resource/Time"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Toy</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Toy</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Toy"/>
+		<Class IRI="http://dbpedia.org/resource/Toy"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Tragedy</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Tragedy</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Tragedy"/>
+		<Class IRI="http://dbpedia.org/resource/Tragedy"/>
+	</EquivalentClasses>
+	<EquivalentClasses>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity1"/>
+			<Literal datatypeIRI="&xsd;string">	http://dbpedia.org/resource/Verse</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:entity2"/>
+			<Literal datatypeIRI="&xsd;string">http://data.linkedtv.eu/ontologies/lumo#Verse</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:measure"/>
+			<Literal datatypeIRI="&xsd;double">	0.5</Literal>
+		</Annotation>
+		<Annotation>
+			<AnnotationProperty IRI="logmap:relation"/>
+			<Literal datatypeIRI="&xsd;string">=</Literal>
+		</Annotation>
+		<Class IRI="http://data.linkedtv.eu/ontologies/lumo#Verse"/>
+		<Class IRI="http://dbpedia.org/resource/Verse"/>
+	</EquivalentClasses>
+</Ontology>
