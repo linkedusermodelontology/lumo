@@ -22,9 +22,9 @@ In version 2.0, mappings automatically produced with LogMap, but not revised man
 - [HyperDB](https://wordpress.org/plugins/hyperdb/) and 
 - [YAGO2S](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/#c10444)
 
+In version 3.0, mappings have not been significantly extended.
+
 ## Future work:
 - Distribute knowledge to several ontologies, with one *core* ontology including most upper concepts, relations and axioms and several more specific ontologies for specific, populous, sub-domains (e.g. LUMO-Arts, LUMO-Sports, etc.). Subdomains will be connected to *core* and potentially with each other. 
-- Extend the arts-culture and sports subdomains. 
-- Update mappings to current versions of connected schemata. 
-- Update mappings to cover the entirety of v2.0.
-- Create mappings to the [Arts & Architecture Thesaurus (AAT)](http://www.getty.edu/research/tools/vocabularies/aat/index.html). 
+- Further extend the arts-culture, healtgh and social events subdomains. 
+- Update mappings to current versions of connected schemata to cover the entirety of v3.0.
