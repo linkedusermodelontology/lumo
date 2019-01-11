@@ -5,5 +5,3 @@ This version is an expansion of LUMO v2.0. Changes include more atomic and compl
 
 For more information about LUMO v3.0, please refer to Deliverable D4.1 (link to come) of the Hyper360 project .
 
-## Mappings
-Mappings to ontologies have remained the same for the current version.
