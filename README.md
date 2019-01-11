@@ -5,6 +5,8 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike License (
 
 The LUMO ontology was initially developed within the [LinkedTV](http://linkedtv.eu/) project (orginally named Linked**TV** User Model Ontology), in order to enable semantic personalization and contextualization in the networked media domain. 
 
+It is since ectended in the premises of the [Hyper360](http://www.hyper360.eu/) H2020 project, to enrich it with more mid-level knowledge across various media sub-domains.
+
 LUMO is designed as an OWL ontology, with its expressivity restricted to the OWL 2 RL profile, in order to maintain the minimal complexity and address scalability and user privacy issues. LUMO is currently accompanied by a separate mappings ontology, modeling mappings of LUMO to several existing ontologies and vocabularies.
 
 Current version maps to:
