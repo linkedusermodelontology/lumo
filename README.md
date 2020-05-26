@@ -38,12 +38,14 @@ Segmentation of the ontology into a family of interlinked sub-ontologies:
 (Top level):
 - Core - *URI: (http://purl.org/lumo/core/)*
 
-(Second level):
+(Mid level):
 - Context - *URI: (http://purl.org/lumo/context/)*
 - Spatiotemporal - *URI: (http://purl.org/lumo/spatiotemporal/)*
 - Agents - *URI: (http://purl.org/lumo/agent/)*
+- Intangible - *URI: (http://purl.org/lumo/intangible/)*
+- Tangible - *URI: (http://purl.org/lumo/tangible/)*
   
-(Third level, domain-specific):
+(Domain-specific):
 - Arts, culture, entertainment - *URI: (http://purl.org/lumo/artcult/)*
 - Crime, law, justice - *URI: (http://purl.org/lumo/crimelaw/)*
 - Disaster & accident - *URI: (http://purl.org/lumo/disacc/)*
