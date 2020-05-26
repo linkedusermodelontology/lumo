@@ -1,0 +1,1359 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/lumo/spatiotemporal"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.org/lumo/spatiotemporal"
+     versionIRI="http://purl.org/lumo/v4/spatiotemporal">
+    <Prefix name="" IRI="http://purl.org/lumo"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal>Dorothea Tsatsou</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <Literal xml:lang="en">LUMO serves as the reference KB for knowledge-based personalisation systems. It models semantics regarding content description, user profiling and logic-based inference/recommendation within the networked media domain.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+        <Literal xml:lang="en">The Centre for Research and Technology Hellas (CERTH) - Information Technologies Institute (ITI)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+        <Literal xml:lang="en">Creative Commons Attribution-ShareAlike License (version 3.0) 
+http://creativecommons.org/licenses/by-sa/3.0/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal xml:lang="en">Linked User Model Ontology (LUMO)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Previously titled &quot;LinkedTV User Model Ontology (LUMO)&quot; (versions 1.0-2.0).</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This ontology was initially developed within the LinkedTV (https://www.linkedtv.eu/) FP7 ICT EU project: versions 1.0 - 2.0.
+
+It was further extended under the H2020 IA project Hyper360 (http://www.hyper360.eu/): versions 3.0 - 4.0.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <Literal>https://linkedusermodelontology.github.io/lumo/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:priorVersion"/>
+        <Literal>v3.0</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>v4.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/agent#College"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/agent#Educational_organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/agent#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/agent#School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/agent#University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/context#User_Dimensions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/core#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/core#Context_Dimensions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/core#Domain_dependent_dimensions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/core#Intangible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/core#Spatio-Temporal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/core#Topics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/economy#Currency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/economy#Economy_business_finance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/intangible#Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/politic#Political_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/politic#Politics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Administrative_region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Afternoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Architectural_structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Area_of_interest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#At_home"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#At_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autumn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avenue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bridge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardinal_direction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Castle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ceiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Church"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Civic_structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concert_hall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Continent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corridor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Courthouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Day_of_the_week"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#District"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Door"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#East"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edifice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Educational_institution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embassy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Field"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fountain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geolocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Government_office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Higway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Island"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Landform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Landmark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lighthouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Local_time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monastery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Month"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Morning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mosque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mountain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movie_theater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Night"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Noon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#North"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Northeast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Northwest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ocean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parliament"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place_of_worship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Point_of_interest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Political_region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relative_location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remote_location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Residence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#River"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Season"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Settlement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shopping_mall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skyscraper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#South"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Southeast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Southwest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stadium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Street"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Structural_component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Summer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Synagogue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Territory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theatre_house"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time_of_day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Town"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Town_hall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urban_structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Valley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Village"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Volcano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Watercourse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#West"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Window"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Winter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#World_heritage_site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Year"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/weather#Weather"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAddress"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCapital"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCurrency"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGeolocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocalTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOfficialLanguage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPOI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPoliticalSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWeather"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSituatedIn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Friday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saturday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sunday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thursday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tuesday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wednesday"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/coverage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/format"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/identifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/relation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/subject"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/type"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/agent#College"/>
+        <Class IRI="http://purl.org/lumo/agent#Educational_organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/agent#College"/>
+        <Class IRI="#Educational_institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/agent#Educational_organization"/>
+        <Class IRI="http://purl.org/lumo/agent#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/agent#Organization"/>
+        <Class IRI="http://purl.org/lumo/core#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/agent#School"/>
+        <Class IRI="http://purl.org/lumo/agent#Educational_organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/agent#School"/>
+        <Class IRI="#Educational_institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/agent#University"/>
+        <Class IRI="http://purl.org/lumo/agent#Educational_organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/agent#University"/>
+        <Class IRI="#Educational_institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/context#User_Dimensions"/>
+        <Class IRI="http://purl.org/lumo/core#Context_Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/core#Agent"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/core#Domain_dependent_dimensions"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/core#Intangible"/>
+        <Class IRI="http://purl.org/lumo/core#Domain_dependent_dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/core#Spatio-Temporal"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/core#Topics"/>
+        <Class IRI="http://purl.org/lumo/core#Domain_dependent_dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/economy#Currency"/>
+        <Class IRI="http://purl.org/lumo/economy#Economy_business_finance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/economy#Economy_business_finance"/>
+        <Class IRI="http://purl.org/lumo/core#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/intangible#Language"/>
+        <Class IRI="http://purl.org/lumo/core#Intangible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/politic#Political_system"/>
+        <Class IRI="http://purl.org/lumo/politic#Politics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/politic#Politics"/>
+        <Class IRI="http://purl.org/lumo/core#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Address"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Administrative_region"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Afternoon"/>
+        <Class IRI="#Time_of_day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airport"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Architectural_structure"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Area"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Area_of_interest"/>
+        <Class IRI="#Relative_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#At_home"/>
+        <Class IRI="#Physical_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#At_work"/>
+        <Class IRI="#Physical_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autumn"/>
+        <Class IRI="#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avenue"/>
+        <Class IRI="#Urban_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beach"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bridge"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canal"/>
+        <Class IRI="#Watercourse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capital"/>
+        <Class IRI="#City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardinal_direction"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Castle"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cave"/>
+        <Class IRI="#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ceiling"/>
+        <Class IRI="#Structural_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Church"/>
+        <Class IRI="#Place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#Administrative_region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Civic_structure"/>
+        <Class IRI="#Architectural_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Class"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinic"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinic"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concert_hall"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concert_hall"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Continent"/>
+        <Class IRI="#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corridor"/>
+        <Class IRI="#Structural_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="#Administrative_region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Courthouse"/>
+        <Class IRI="#Government_office"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Day_of_the_week"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destination"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#District"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dome"/>
+        <Class IRI="#Structural_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Door"/>
+        <Class IRI="#Structural_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#East"/>
+        <Class IRI="#Cardinal_direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edifice"/>
+        <Class IRI="#Architectural_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Educational_institution"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Educational_institution"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Embassy"/>
+        <Class IRI="#Government_office"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evening"/>
+        <Class IRI="#Time_of_day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Field"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Floor"/>
+        <Class IRI="#Structural_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fountain"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geolocation"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Government_office"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Government_office"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Higway"/>
+        <Class IRI="#Urban_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House"/>
+        <Class IRI="#Residence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Island"/>
+        <Class IRI="#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lake"/>
+        <Class IRI="#Watercourse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Landform"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Landmark"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lighthouse"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Local_time"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="http://purl.org/lumo/core#Spatio-Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monastery"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Month"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monument"/>
+        <Class IRI="#Architectural_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monument"/>
+        <Class IRI="#Landmark"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Morning"/>
+        <Class IRI="#Time_of_day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mosque"/>
+        <Class IRI="#Place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mountain"/>
+        <Class IRI="#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movie_theater"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movie_theater"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museum"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museum"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Night"/>
+        <Class IRI="#Time_of_day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Noon"/>
+        <Class IRI="#Time_of_day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#North"/>
+        <Class IRI="#Cardinal_direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Northeast"/>
+        <Class IRI="#Cardinal_direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Northwest"/>
+        <Class IRI="#Cardinal_direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ocean"/>
+        <Class IRI="#Watercourse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Park"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parliament"/>
+        <Class IRI="#Government_office"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_location"/>
+        <Class IRI="#User_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place_of_worship"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place_of_worship"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Point_of_interest"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Political_region"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relative_location"/>
+        <Class IRI="#User_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Remote_location"/>
+        <Class IRI="#Physical_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Residence"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurant"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#River"/>
+        <Class IRI="#Watercourse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <Class IRI="#Urban_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sea"/>
+        <Class IRI="#Watercourse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Season"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Settlement"/>
+        <Class IRI="#Administrative_region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shop"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shopping_mall"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shopping_mall"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skyscraper"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#South"/>
+        <Class IRI="#Cardinal_direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Southeast"/>
+        <Class IRI="#Cardinal_direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Southwest"/>
+        <Class IRI="#Cardinal_direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spring"/>
+        <Class IRI="#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stadium"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="#Administrative_region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Street"/>
+        <Class IRI="#Urban_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Structural_component"/>
+        <Class IRI="#Architectural_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Summer"/>
+        <Class IRI="#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Synagogue"/>
+        <Class IRI="#Place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temple"/>
+        <Class IRI="#Place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Territory"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theatre_house"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theatre_house"/>
+        <Class IRI="#Edifice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class IRI="http://purl.org/lumo/core#Context_Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class IRI="http://purl.org/lumo/core#Spatio-Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time_of_day"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tower"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Town"/>
+        <Class IRI="#Administrative_region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Town_hall"/>
+        <Class IRI="#Government_office"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urban_structure"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_location"/>
+        <Class IRI="http://purl.org/lumo/context#User_Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_location"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valley"/>
+        <Class IRI="#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Village"/>
+        <Class IRI="#Administrative_region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volcano"/>
+        <Class IRI="#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Watercourse"/>
+        <Class IRI="#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#West"/>
+        <Class IRI="#Cardinal_direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Window"/>
+        <Class IRI="#Structural_component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Winter"/>
+        <Class IRI="#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#World_heritage_site"/>
+        <Class IRI="#Landmark"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Year"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoo"/>
+        <Class IRI="#Civic_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/weather#Weather"/>
+        <Class IRI="http://purl.org/lumo/core#Topics"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Day_of_the_week"/>
+        <NamedIndividual IRI="#Friday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Day_of_the_week"/>
+        <NamedIndividual IRI="#Monday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Day_of_the_week"/>
+        <NamedIndividual IRI="#Saturday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Day_of_the_week"/>
+        <NamedIndividual IRI="#Sunday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Day_of_the_week"/>
+        <NamedIndividual IRI="#Thursday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Day_of_the_week"/>
+        <NamedIndividual IRI="#Tuesday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Day_of_the_week"/>
+        <NamedIndividual IRI="#Wednesday"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAddress"/>
+        <Class IRI="#Edifice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCapital"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCurrency"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGeolocation"/>
+        <Class IRI="#Administrative_region"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLocalTime"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Architectural_structure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOfficialLanguage"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPOI"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPoliticalSystem"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWeather"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSituatedIn"/>
+        <Class IRI="http://purl.org/lumo/agent#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSituatedIn"/>
+        <Class IRI="#Architectural_structure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAddress"/>
+        <Class IRI="#Address"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCapital"/>
+        <Class IRI="#Capital"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCurrency"/>
+        <Class IRI="http://purl.org/lumo/economy#Currency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGeolocation"/>
+        <Class IRI="#Geolocation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLocalTime"/>
+        <Class IRI="#Local_time"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#Administrative_region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOfficialLanguage"/>
+        <Class IRI="http://purl.org/lumo/intangible#Language"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPOI"/>
+        <Class IRI="#Point_of_interest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPoliticalSystem"/>
+        <Class IRI="http://purl.org/lumo/politic#Political_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWeather"/>
+        <Class IRI="http://purl.org/lumo/weather#Weather"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSituatedIn"/>
+        <Class IRI="#Administrative_region"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Autumn</IRI>
+        <Literal xml:lang="en">Autumn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Autumn</IRI>
+        <Literal xml:lang="en">Fall</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edifice</IRI>
+        <Literal>Building</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edifice</IRI>
+        <Literal>Edifice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stadium</IRI>
+        <Literal>Arena</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stadium</IRI>
+        <Literal>Stadium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Town_hall</IRI>
+        <Literal>City_hall</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/lumo/core"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.org/lumo/core"
+     versionIRI="http://purl.org/lumo/v4/core">
+    <Prefix name="" IRI="http://purl.org/lumo/core"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal>Dorothea Tsatsou</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <Literal xml:lang="en">LUMO serves as the reference KB for knowledge-based personalisation systems. It models semantics regarding content description, user profiling and logic-based inference/recommendation within the networked media domain.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+        <Literal xml:lang="en">The Centre for Research and Technology Hellas (CERTH) - Information Technologies Institute (ITI)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+        <Literal xml:lang="en">Creative Commons Attribution-ShareAlike License (version 3.0) 
+http://creativecommons.org/licenses/by-sa/3.0/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal xml:lang="en">Linked User Model Ontology (LUMO)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Previously titled &quot;LinkedTV User Model Ontology (LUMO)&quot; (versions 1.0-2.0).</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This ontology was initially developed within the LinkedTV (https://www.linkedtv.eu/) FP7 ICT EU project: versions 1.0 - 2.0.
+
+It was further extended under the H2020 IA project Hyper360 (http://www.hyper360.eu/): versions 3.0 - 4.0.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <Literal>https://linkedusermodelontology.github.io/lumo/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:priorVersion"/>
+        <Literal>v3.0</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>v4.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://org.iti.gr/ontologies/natenv#Nature_&amp;_Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/artcult#Arts_culture_entertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Context_Dimensions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domain_dependent_dimensions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intangible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spatio-Temporal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tangible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/crimelaw#Crime_law_justice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/disacc#Disaster_accident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/economy#Economy_business_finance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/edu#Education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/health#Health_wellbeing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/life#Lifestyle_leisure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/politic#Politics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/religion#Religion_belief"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/scitech#Science_technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/soc#Society"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/sport#Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/transportation#Transportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/unrest#Unrest_conflicts_war"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/weather#Weather"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInterest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSubTopic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopic"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/coverage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/format"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/identifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/relation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/subject"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/type"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://org.iti.gr/ontologies/natenv#Nature_&amp;_Environment"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/artcult#Arts_culture_entertainment"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agent"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Domain_dependent_dimensions"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intangible"/>
+        <Class IRI="#Domain_dependent_dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spatio-Temporal"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tangible"/>
+        <Class IRI="#Domain_dependent_dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topics"/>
+        <Class IRI="#Domain_dependent_dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/crimelaw#Crime_law_justice"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/disacc#Disaster_accident"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/economy#Economy_business_finance"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/edu#Education"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/health#Health_wellbeing"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/life#Lifestyle_leisure"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/politic#Politics"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/religion#Religion_belief"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/scitech#Science_technology"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/soc#Society"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/sport#Sports"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/transportation#Transportation"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/unrest#Unrest_conflicts_war"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/weather#Weather"/>
+        <Class IRI="#Topics"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <ObjectProperty IRI="#hasTopic"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasContent"/>
+        <ObjectProperty IRI="#hasInterest"/>
+    </InverseObjectProperties>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://org.iti.gr/ontologies/natenv#Nature_&amp;_Environment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/artcult#Arts_culture_entertainment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/crimelaw#Crime_law_justice"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/disacc#Disaster_accident"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/economy#Economy_business_finance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/edu#Education"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/health#Health_wellbeing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/life#Lifestyle_leisure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/politic#Politics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/religion#Religion_belief"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/scitech#Science_technology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/soc#Society"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/sport#Sports"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/unrest#Unrest_conflicts_war"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubTopic"/>
+        <Class IRI="http://purl.org/lumo/weather#Weather"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topics"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,884 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/lumo/context"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.org/lumo/context"
+     versionIRI="http://purl.org/lumo/v4/context">
+    <Prefix name="" IRI="http://purl.org/lumo/core"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal>Dorothea Tsatsou</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <Literal xml:lang="en">LUMO serves as the reference KB for knowledge-based personalisation systems. It models semantics regarding content description, user profiling and logic-based inference/recommendation within the networked media domain.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+        <Literal xml:lang="en">The Centre for Research and Technology Hellas (CERTH) - Information Technologies Institute (ITI)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+        <Literal xml:lang="en">Creative Commons Attribution-ShareAlike License (version 3.0) 
+http://creativecommons.org/licenses/by-sa/3.0/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal xml:lang="en">Linked User Model Ontology (LUMO)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Previously titled &quot;LinkedTV User Model Ontology (LUMO)&quot; (versions 1.0-2.0).</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This ontology was initially developed within the LinkedTV (https://www.linkedtv.eu/) FP7 ICT EU project: versions 1.0 - 2.0.
+
+It was further extended under the H2020 IA project Hyper360 (http://www.hyper360.eu/): versions 3.0 - 4.0.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <Literal>https://linkedusermodelontology.github.io/lumo/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:priorVersion"/>
+        <Literal>v3.0</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>v4.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Active_User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Advertisement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age_categorization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avatar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boredom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Child"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Context_Attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Demographics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disgust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excitement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family_status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family_with_children"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#First_language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Happiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Head_orientation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotspot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hyperlink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Layout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leaving"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Married_or_with_partner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Media_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Media_item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Omnidirectional_video"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#P2P"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radio_broadcast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relative_Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Satisfaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary_User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Senior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Single"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sitting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surprise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teenager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Dimensions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video_stream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viewpoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_content_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_page"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#With_acquaintances"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#With_childern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#With_family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#With_friends"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/core#Context_Dimensions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/core#Spatio-Temporal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Afternoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Area_of_interest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#At_home"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#At_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Autumn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Day_of_the_week"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Evening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Local_time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Month"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Morning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Night"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Noon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Physical_location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Relative_location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Remote_location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Season"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Spring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Summer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time_of_day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#User_location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Winter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dutch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#English"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#French"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#German"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Friday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Monday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Saturday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Sunday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Thursday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Tuesday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Wednesday"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/coverage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/format"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/identifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/relation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/subject"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/type"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Active_User"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adult"/>
+        <Class IRI="#Age_categorization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Advertisement"/>
+        <Class IRI="#Web_content_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age_categorization"/>
+        <Class IRI="#Demographics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alone"/>
+        <Class IRI="#Social_Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anger"/>
+        <Class IRI="#Reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Audio"/>
+        <Class IRI="#Media_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avatar"/>
+        <Class IRI="#Media_item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blog"/>
+        <Class IRI="#Web_content_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boredom"/>
+        <Class IRI="#Reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Child"/>
+        <Class IRI="#Age_categorization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Child"/>
+        <Class IRI="#Relative_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Context_Attributes"/>
+        <Class IRI="http://purl.org/lumo/core#Context_Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Demographics"/>
+        <Class IRI="#User_Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disgust"/>
+        <Class IRI="#Reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excitement"/>
+        <Class IRI="#Reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family_status"/>
+        <Class IRI="#Demographics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family_with_children"/>
+        <Class IRI="#Family_status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#First_language"/>
+        <Class IRI="#Demographics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gender"/>
+        <Class IRI="#Demographics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Happiness"/>
+        <Class IRI="#Reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Head_orientation"/>
+        <Class IRI="#Motion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotspot"/>
+        <Class IRI="#Media_item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hyperlink"/>
+        <Class IRI="#Media_item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Image"/>
+        <Class IRI="#Media_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infant"/>
+        <Class IRI="#Age_categorization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interface"/>
+        <Class IRI="#Context_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Layer"/>
+        <Class IRI="#Media_item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Layout"/>
+        <Class IRI="#Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leaving"/>
+        <Class IRI="#Motion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lying"/>
+        <Class IRI="#Motion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Married_or_with_partner"/>
+        <Class IRI="#Family_status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Media_Type"/>
+        <Class IRI="#Context_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Media_item"/>
+        <Class IRI="#Context_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modality"/>
+        <Class IRI="#Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motion"/>
+        <Class IRI="#User_Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object"/>
+        <Class IRI="#Media_item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Omnidirectional_video"/>
+        <Class IRI="#Video"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#P2P"/>
+        <Class IRI="#Web_content_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parent"/>
+        <Class IRI="#Relative_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radio_broadcast"/>
+        <Class IRI="#Audio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reaction"/>
+        <Class IRI="#User_Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relative_Role"/>
+        <Class IRI="#User_Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Satisfaction"/>
+        <Class IRI="#Reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary_User"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Senior"/>
+        <Class IRI="#Age_categorization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Single"/>
+        <Class IRI="#Family_status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sitting"/>
+        <Class IRI="#Motion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Environment"/>
+        <Class IRI="#User_Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_network"/>
+        <Class IRI="#Web_content_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standing"/>
+        <Class IRI="#Motion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surprise"/>
+        <Class IRI="#Reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teenager"/>
+        <Class IRI="#Age_categorization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Text"/>
+        <Class IRI="#Media_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User"/>
+        <Class IRI="#Relative_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Dimensions"/>
+        <Class IRI="http://purl.org/lumo/core#Context_Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video"/>
+        <Class IRI="#Media_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video_stream"/>
+        <Class IRI="#Video"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viewpoint"/>
+        <Class IRI="#Media_item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visitor"/>
+        <Class IRI="#Relative_Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_content_type"/>
+        <Class IRI="#Context_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_page"/>
+        <Class IRI="#Web_content_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#With_acquaintances"/>
+        <Class IRI="#Social_Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#With_childern"/>
+        <Class IRI="#With_family"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#With_family"/>
+        <Class IRI="#Social_Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#With_friends"/>
+        <Class IRI="#Social_Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/core#Spatio-Temporal"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Afternoon"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time_of_day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Area_of_interest"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Relative_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#At_home"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Physical_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#At_work"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Physical_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Autumn"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Day_of_the_week"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Evening"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time_of_day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Local_time"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Location"/>
+        <Class IRI="http://purl.org/lumo/core#Spatio-Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Month"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Morning"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time_of_day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Night"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time_of_day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Noon"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time_of_day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Physical_location"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#User_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Relative_location"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#User_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Remote_location"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Physical_location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Season"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Spring"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Summer"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time"/>
+        <Class IRI="http://purl.org/lumo/core#Context_Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time"/>
+        <Class IRI="http://purl.org/lumo/core#Spatio-Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time_of_day"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#User_location"/>
+        <Class IRI="#User_Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#User_location"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Winter"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Year"/>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Time"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#First_language"/>
+        <NamedIndividual IRI="#Dutch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#First_language"/>
+        <NamedIndividual IRI="#English"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#First_language"/>
+        <NamedIndividual IRI="#French"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#First_language"/>
+        <NamedIndividual IRI="#German"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Day_of_the_week"/>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Friday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Day_of_the_week"/>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Monday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Day_of_the_week"/>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Saturday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Day_of_the_week"/>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Sunday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Day_of_the_week"/>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Thursday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Day_of_the_week"/>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Tuesday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/lumo/spatiotemporal#Day_of_the_week"/>
+        <NamedIndividual IRI="http://purl.org/lumo/spatiotemporal#Wednesday"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Infant</IRI>
+        <Literal>Baby</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Infant</IRI>
+        <Literal>Infant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Reaction</IRI>
+        <Literal>Affect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Reaction</IRI>
+        <Literal>Emotion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Reaction</IRI>
+        <Literal>Reaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Teenager</IRI>
+        <Literal>Adolescent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Teenager</IRI>
+        <Literal>Teenager</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Web_page</IRI>
+        <Literal>Website</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/lumo/spatiotemporal#Autumn</IRI>
+        <Literal xml:lang="en">Autumn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/lumo/spatiotemporal#Autumn</IRI>
+        <Literal xml:lang="en">Fall</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
