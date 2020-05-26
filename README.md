@@ -19,7 +19,7 @@ Current version maps to:
 This work is licensed under a [Creative Commons Attribution-ShareAlike License (version 3.0)](http://creativecommons.org/licenses/by-sa/3.0/). This copyright applies to the LUMO Ontology, the LUMO mappings ontology and accompanying documentation.
 
 ## Publications
-> Pending: publication of v4.
+*Pending: publication of v4.*
 
 > Tsatsou, Dorothea, and Vasileios Mezaris. "LUMO: The LinkedTV user model ontology." European Semantic Web Conference. Springer, Cham, 2014. 
 
@@ -38,12 +38,14 @@ Segmentation of the ontology into a family of interlinked sub-ontologies:
 (Top level):
 - Core - *URI: (http://purl.org/lumo/core/)*
 
-(Second level):
+(Mid level):
 - Context - *URI: (http://purl.org/lumo/context/)*
 - Spatiotemporal - *URI: (http://purl.org/lumo/spatiotemporal/)*
 - Agents - *URI: (http://purl.org/lumo/agent/)*
+- Intangible - *URI: (http://purl.org/lumo/intangible/)*
+- Tangible - *URI: (http://purl.org/lumo/tangible/)*
   
-(Third level, domain-specific):
+(Domain-specific):
 - Arts, culture, entertainment - *URI: (http://purl.org/lumo/artcult/)*
 - Crime, law, justice - *URI: (http://purl.org/lumo/crimelaw/)*
 - Disaster & accident - *URI: (http://purl.org/lumo/disacc/)*
