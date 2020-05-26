@@ -19,7 +19,7 @@ Current version maps to:
 This work is licensed under a [Creative Commons Attribution-ShareAlike License (version 3.0)](http://creativecommons.org/licenses/by-sa/3.0/). This copyright applies to the LUMO Ontology, the LUMO mappings ontology and accompanying documentation.
 
 ## Publications
-> Pending: publication of v4.
+*Pending: publication of v4.*
 
 > Tsatsou, Dorothea, and Vasileios Mezaris. "LUMO: The LinkedTV user model ontology." European Semantic Web Conference. Springer, Cham, 2014. 
 
