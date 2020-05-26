@@ -1,5 +1,5 @@
 # The Linked User Model Ontology (LUMO)
-The Linked User Model Ontology (LUMO) is a cross-domain ontology that constitutes the backgorund knowledge base (KB) to formally represent the contents of networked media items, in a manner pertinent to the media consumer. In addition, it models information about contextual information regarding the user/consumer, but also the content itself. 
+The Linked User Model Ontology (LUMO) is a cross-domain ontology aiming to serve as the background knowledge base (KB) for knowledge-based personalisation and recommendation systems. LUMO models semantics to formally represent the contents of networked media items, in a manner pertinent to the media consumer. In addition, it models information about contextual information regarding the user/consumer, but also the content itself. 
 
 Its main purpose is to provide a holistic and uniform vocabulary and schema, that is slim enough so as to enable tractable logical inference over the KB for the personalising content delivery by the media provider, but also concise enough so as to represent efficiently the diverse aspects of the generic media super-domain.
 
