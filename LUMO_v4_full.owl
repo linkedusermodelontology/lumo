@@ -57,16 +57,16 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
         <Literal>v4.0</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Animals_&amp;_wildlife"/>
+        <Class IRI="#Animals_&amp;_wildlife"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Coup_d&apos;_etat"/>
+        <Class IRI="#Coup_d&apos;_etat"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Creative_worker_&amp;_artist"/>
+        <Class IRI="#Creative_worker_&amp;_artist"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Nature_&amp;_Environment"/>
+        <Class IRI="#Nature_&amp;_Environment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Abdomen"/>
@@ -4274,41 +4274,41 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
         <Class IRI="#Vitraux"/>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Animals_&amp;_wildlife"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Nature_&amp;_Environment"/>
+        <Class IRI="#Animals_&amp;_wildlife"/>
+        <Class IRI="#Nature_&amp;_Environment"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Animals_&amp;_wildlife"/>
+        <Class IRI="#Animals_&amp;_wildlife"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasSubTopic"/>
             <Class IRI="#Animal_science"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Coup_d&apos;_etat"/>
+        <Class IRI="#Coup_d&apos;_etat"/>
         <Class IRI="#Military_event"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Coup_d&apos;_etat"/>
+        <Class IRI="#Coup_d&apos;_etat"/>
         <Class IRI="#Unrest_conflicts_war"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Creative_worker_&amp;_artist"/>
+        <Class IRI="#Creative_worker_&amp;_artist"/>
         <Class IRI="#Professional"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Creative_worker_&amp;_artist"/>
+        <Class IRI="#Creative_worker_&amp;_artist"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasTopic"/>
             <Class IRI="#Arts_culture_entertainment"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Nature_&amp;_Environment"/>
+        <Class IRI="#Nature_&amp;_Environment"/>
         <Class IRI="#Topics"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Nature_&amp;_Environment"/>
+        <Class IRI="#Nature_&amp;_Environment"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasSubTopic"/>
             <Class IRI="#Life_sciences"/>
@@ -4532,7 +4532,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Animals"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Animals_&amp;_wildlife"/>
+        <Class IRI="#Animals_&amp;_wildlife"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Animation"/>
@@ -4584,7 +4584,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Architect"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Creative_worker_&amp;_artist"/>
+        <Class IRI="#Creative_worker_&amp;_artist"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Architect"/>
@@ -4662,7 +4662,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Artist"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Creative_worker_&amp;_artist"/>
+        <Class IRI="#Creative_worker_&amp;_artist"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Artist"/>
@@ -4758,7 +4758,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Author"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Creative_worker_&amp;_artist"/>
+        <Class IRI="#Creative_worker_&amp;_artist"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Authorities"/>
@@ -5455,11 +5455,11 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Climate"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Nature_&amp;_Environment"/>
+        <Class IRI="#Nature_&amp;_Environment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Climate_change"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Nature_&amp;_Environment"/>
+        <Class IRI="#Nature_&amp;_Environment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Climbing"/>
@@ -5903,7 +5903,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Developer"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Creative_worker_&amp;_artist"/>
+        <Class IRI="#Creative_worker_&amp;_artist"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Device"/>
@@ -6269,7 +6269,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Environment"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Nature_&amp;_Environment"/>
+        <Class IRI="#Nature_&amp;_Environment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Epic"/>
@@ -7464,7 +7464,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
         <Class IRI="#Landform"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasTopic"/>
-            <Class IRI="http://org.iti.gr/ontologies/lumo#Nature_&amp;_Environment"/>
+            <Class IRI="#Nature_&amp;_Environment"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8257,7 +8257,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Nature"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Nature_&amp;_Environment"/>
+        <Class IRI="#Nature_&amp;_Environment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Neck"/>
@@ -8777,7 +8777,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
         <Class IRI="#Plant"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasTopic"/>
-            <Class IRI="http://org.iti.gr/ontologies/lumo#Nature_&amp;_Environment"/>
+            <Class IRI="#Nature_&amp;_Environment"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -9981,7 +9981,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Species"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Animals_&amp;_wildlife"/>
+        <Class IRI="#Animals_&amp;_wildlife"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Speech"/>
@@ -10200,7 +10200,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sustainability"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Nature_&amp;_Environment"/>
+        <Class IRI="#Nature_&amp;_Environment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sutras"/>
@@ -10905,7 +10905,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Wildlife_conservation"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Animals_&amp;_wildlife"/>
+        <Class IRI="#Animals_&amp;_wildlife"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Wind_surfing"/>
@@ -11036,7 +11036,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
         <Class IRI="#Zoo"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasSubTopic"/>
-            <Class IRI="http://org.iti.gr/ontologies/lumo#Animals_&amp;_wildlife"/>
+            <Class IRI="#Animals_&amp;_wildlife"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -11377,7 +11377,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSubTopic"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Nature_&amp;_Environment"/>
+        <Class IRI="#Nature_&amp;_Environment"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSubTopic"/>
@@ -11449,7 +11449,7 @@ It was further extended under the H2020 IA project Hyper360 (http://www.hyper360
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isCreatedBy"/>
-        <Class IRI="http://org.iti.gr/ontologies/lumo#Creative_worker_&amp;_artist"/>
+        <Class IRI="#Creative_worker_&amp;_artist"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isDemonstratedIn"/>
